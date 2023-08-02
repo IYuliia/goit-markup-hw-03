@@ -1,0 +1,251 @@
+:root {
+  --slate-text-color: #434455;
+  --navyblue-background-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --hover-accent-color: #404bbf;
+  --white: #ffffff;
+  --cloud-secondary-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate-text-color);
+  background-color: var(--white);
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.heading {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navyblue-background-color);
+}
+
+/* HEADER */
+.page-header {
+}
+.page-nav {
+}
+.nav-logo {
+  color: var(--navyblue-background-color);
+}
+
+.menu {
+}
+
+.menu-item {
+}
+
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--navyblue-background-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--hover-accent-color);
+}
+
+.page-address {
+  font-style: normal;
+}
+.address-list {
+}
+.address-list-item {
+}
+.address-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover-accent-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--navyblue-background-color);
+}
+.hero-heading {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+  color: var(--white);
+}
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-accent-color);
+}
+
+/* ADVANTAGES */
+
+.advantages {
+}
+.advantages-heading {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+
+.advantages-subheading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue-background-color);
+}
+
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* WHAT ARE WE DOING */
+
+.what-we-do {
+}
+
+.what-we-do-list {
+}
+.what-we-do-item {
+}
+.what-we-do-image {
+}
+
+/* TEAM */
+
+.team {
+  background-color: var(--cloud-secondary-color);
+}
+
+.team-list {
+}
+.team-item {
+  background-color: var(--white);
+}
+.team-item-image {
+}
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue-background-color);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* FOOTER */
+
+.page-footer {
+  background-color: var(--navyblue-background-color);
+}
+
+.footer-logo {
+  color: var(--cloud-secondary-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--cloud-secondary-color);
+}
+
+/* PORTFOLIO PAGE 
+
+FILTER */
+.filter-nav {
+}
+.filter-nav-list {
+}
+.filter-nav-list-item {
+}
+.filter-nav-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--accent-color);
+  background-color: var(--cloud-secondary-color);
+}
+
+.filter-nav-button:hover,
+.filter-nav-button:focus {
+  color: var(--white);
+  background-color: var(--hover-accent-color);
+}
+
+/* FILTER CARDS */
+
+.filter-card-list {
+}
+
+.filter-card-item {
+}
+
+.filter-card-link {
+}
+
+.filter-card-image {
+}
+.filter-card-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue-background-color);
+}
+.filter-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}

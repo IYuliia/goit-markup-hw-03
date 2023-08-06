@@ -96,6 +96,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
@@ -108,12 +109,12 @@ img {
 }
 .nav-logo {
   color: var(--navyblue-background-color);
+  margin-right: 76px;
 }
 
 .menu {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .menu-item {
@@ -160,23 +161,20 @@ img {
 
 .hero {
   background-color: var(--navyblue-background-color);
-}
-
-.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  text-align: center;
 }
 
 .hero-heading {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  text-align: center;
   color: var(--white);
   margin-bottom: 48px;
   max-width: 496px;
+  text-align: center;
 }
+
 .hero-button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -185,9 +183,12 @@ img {
   letter-spacing: 0.64px;
   color: var(--white);
   background-color: var(--accent-color);
+  display: block;
   padding: 16px 32px;
+  margin: 0 auto;
   border-radius: 4px;
   border: transparent;
+  min-width: 169px;
 }
 
 .hero-button:hover,
@@ -199,7 +200,7 @@ img {
 
 .advantages {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 .advantages-heading {
 }
@@ -217,7 +218,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--navyblue-background-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -254,6 +255,7 @@ img {
 }
 .team-item {
   flex-basis: calc((100% - 3 * 24) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-item-image {
 }
@@ -263,7 +265,6 @@ img {
   padding-bottom: 32px;
   text-align: center;
   background-color: var(--white);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
@@ -284,16 +285,17 @@ img {
 
 .page-footer {
   background-color: var(--navyblue-background-color);
-  padding-top: 101px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer-logo {
   color: var(--cloud-secondary-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
-  margin-top: 17px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -334,6 +336,7 @@ FILTER */
 .filter-nav-button:focus {
   color: var(--white);
   background-color: var(--hover-accent-color);
+  border: 1px solid transparent;
 }
 
 /* FILTER CARDS */
@@ -356,10 +359,9 @@ FILTER */
 }
 
 .filter-card-info {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .filter-card-heading {

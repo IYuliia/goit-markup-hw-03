@@ -94,28 +94,32 @@ img {
 
 /* HEADER */
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 .page-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
+
+.header-logo-link {
+  margin-right: 76px;
+}
+
 .nav-logo {
   color: var(--navyblue-background-color);
-  margin-right: 76px;
 }
 
 .menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-item {
@@ -173,6 +177,7 @@ img {
   letter-spacing: 1.12px;
   color: var(--white);
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-button {

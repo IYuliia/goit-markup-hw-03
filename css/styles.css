@@ -172,6 +172,7 @@ img {
 }
 
 .hero-heading {
+  display: inline-block;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;

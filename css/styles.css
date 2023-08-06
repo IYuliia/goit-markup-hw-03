@@ -175,6 +175,7 @@ img {
   text-align: center;
   color: var(--white);
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
